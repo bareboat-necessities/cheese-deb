@@ -18,7 +18,7 @@ cd cheese-44.1
 
 xz -cd ../cheese_44.1-1.debian.tar.xz | tar xvf -
 
-apt-get -y build-dep cheese
+export DEBIAN_FRONTEND=noninteractive
 DEB_BUILD_OPTIONS=nocheck dpkg-buildpackage -b -d -nc -uc -us
 
 cd ..
