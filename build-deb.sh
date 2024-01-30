@@ -21,7 +21,7 @@ cp /etc/apt/sources.list /etc/apt/sources.list~
 sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list
 apt-get update
 
-apt-get -y build-dep chees
+apt-get -y build-dep cheese
 dpkg-buildpackage -b -d -uc -us
 
 cd ..
