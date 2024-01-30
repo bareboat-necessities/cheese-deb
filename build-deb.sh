@@ -5,7 +5,9 @@ mkdir cheese-tmp; cd cheese-tmp
 sudo apt-get -y install meson cmake make git \
  dpkg-dev debhelper devscripts equivs pkg-config
 
-sudo apt-get -y install build-essential git cmake flex bison valac gobject-introspection
+sudo apt-get -y install build-essential git cmake flex bison valac gobject-introspection \
+   gettext gtk-doc-tools yelp-tools appstream-util libx11-dev libgstreamer-plugins-bad1.0-dev \
+   libgnome-desktop-3-dev libclutter-gtk-1.0-dev libclutter-gst-3.0-dev libcanberra-gtk3-dev
 
 wget http://deb.debian.org/debian/pool/main/c/cheese/cheese_44.1.orig.tar.xz
 wget http://deb.debian.org/debian/pool/main/c/cheese/cheese_44.1-1.debian.tar.xz
