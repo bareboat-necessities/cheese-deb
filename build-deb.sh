@@ -3,7 +3,7 @@
 mkdir cheese-tmp; cd cheese-tmp
 
 apt-get -y install meson cmake make git \
- dpkg-dev debhelper devscripts equivs pkg-config
+ dpkg-dev debhelper devscripts equivs pkg-config wget
 
 apt-get -y install build-essential git cmake flex bison valac gobject-introspection \
    gettext gtk-doc-tools yelp-tools appstream-util libx11-dev libgstreamer-plugins-bad1.0-dev \
