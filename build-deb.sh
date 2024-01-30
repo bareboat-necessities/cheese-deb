@@ -11,7 +11,7 @@ wget http://deb.debian.org/debian/pool/main/c/cheese/cheese_44.1.orig.tar.xz
 wget http://deb.debian.org/debian/pool/main/c/cheese/cheese_44.1-1.debian.tar.xz
 
 xz -cd cheese_44.1.orig.tar.xz | tar xvf -
-cd cheese*
+cd cheese-44.1
 
 xz -cd ../cheese_44.1-1.debian.tar.xz | tar xvf -
 
