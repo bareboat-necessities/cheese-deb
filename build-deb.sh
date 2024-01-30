@@ -17,10 +17,6 @@ cd cheese-44.1
 
 xz -cd ../cheese_44.1-1.debian.tar.xz | tar xvf -
 
-cp /etc/apt/sources.list /etc/apt/sources.list~
-sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list
-apt-get update
-
 apt-get -y build-dep cheese
 dpkg-buildpackage -b -d -uc -us
 
