@@ -10,7 +10,7 @@ sudo apt-get -y install build-essential git cmake flex bison
 wget http://deb.debian.org/debian/pool/main/c/cheese/cheese_44.1.orig.tar.xz
 wget http://deb.debian.org/debian/pool/main/c/cheese/cheese_44.1-1.debian.tar.xz
 
-xz -cd cheese_44.1.orig.tar.xz | tar xvf -
+xz -cd cheese_44.1.orig.tar.xz | tar xvf 
 cd cheese*
 
 xz -cd ../cheese_44.1-1.debian.tar.xz | tar xvf -
